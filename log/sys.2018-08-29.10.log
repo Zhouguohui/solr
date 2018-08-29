@@ -1,8 +1,0 @@
-2018-08-29 23:02:38,686 INFO (StartupInfoLogger.java:59)- Started Application in 5.634 seconds (JVM running for 6.812)
-2018-08-29 23:04:57,539 INFO (StartupInfoLogger.java:50)- Starting Application on WIN-FD7OVULN6R0 with PID 9192 (D:\spring-boot\target\classes started by Administrator in D:\spring-boot)
-2018-08-29 23:04:57,542 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
-2018-08-29 23:04:57,545 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
-2018-08-29 23:05:01,622 INFO (StartupInfoLogger.java:59)- Started Application in 5.091 seconds (JVM running for 6.231)
-2018-08-29 23:05:30,159 INFO (StartupInfoLogger.java:50)- Starting Application on WIN-FD7OVULN6R0 with PID 1236 (D:\spring-boot\target\classes started by Administrator in D:\spring-boot)
-2018-08-29 23:05:30,162 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
-2018-08-29 23:05:30,165 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
