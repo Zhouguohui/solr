@@ -1,0 +1,11 @@
+2018-08-29 21:14:59,552 INFO (StartupInfoLogger.java:50)- Starting ApplicationTests on WIN-FD7OVULN6R0 with PID 10496 (started by Administrator in D:\spring-boot)
+2018-08-29 21:14:59,613 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-29 21:14:59,621 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-29 21:15:03,917 INFO (StartupInfoLogger.java:59)- Started ApplicationTests in 5.604 seconds (JVM running for 8.759)
+2018-08-29 21:17:05,726 INFO (StartupInfoLogger.java:50)- Starting ApplicationTests on WIN-FD7OVULN6R0 with PID 6320 (started by Administrator in D:\spring-boot)
+2018-08-29 21:17:05,728 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-29 21:17:05,733 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-29 21:17:08,561 INFO (StartupInfoLogger.java:59)- Started ApplicationTests in 3.998 seconds (JVM running for 5.776)
+2018-08-29 21:34:40,015 INFO (StartupInfoLogger.java:50)- Starting ApplicationTests on WIN-FD7OVULN6R0 with PID 5308 (started by Administrator in D:\spring-boot)
+2018-08-29 21:34:40,048 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-29 21:34:40,052 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

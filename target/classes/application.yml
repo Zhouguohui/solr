@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+
+User:
+  age: 18
+  names: 周国辉1
+  l:
+   - 1
+   - 2
+  m: {k1: v1,k2: v2}

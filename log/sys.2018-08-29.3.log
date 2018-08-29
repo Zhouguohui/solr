@@ -1,0 +1,8 @@
+2018-08-29 21:51:00,359 INFO (DruidConfig.java:27)- init Druid Servlet Configuration 
+2018-08-29 21:51:02,432 INFO (StartupInfoLogger.java:59)- Started ApplicationTests in 5.224 seconds (JVM running for 7.595)
+2018-08-29 21:54:18,415 INFO (StartupInfoLogger.java:50)- Starting ApplicationTests on WIN-FD7OVULN6R0 with PID 3424 (started by Administrator in D:\spring-boot)
+2018-08-29 21:54:18,417 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-29 21:54:18,420 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-29 21:55:02,137 INFO (StartupInfoLogger.java:50)- Starting ApplicationTests on WIN-FD7OVULN6R0 with PID 4260 (started by Administrator in D:\spring-boot)
+2018-08-29 21:55:02,177 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-29 21:55:02,183 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

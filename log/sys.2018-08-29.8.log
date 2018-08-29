@@ -1,0 +1,11 @@
+2018-08-29 22:30:23,916 INFO (StartupInfoLogger.java:59)- Started Application in 5.275 seconds (JVM running for 6.501)
+2018-08-29 22:31:16,113 INFO (StartupInfoLogger.java:50)- Starting Application on WIN-FD7OVULN6R0 with PID 8056 (D:\spring-boot\target\classes started by Administrator in D:\spring-boot)
+2018-08-29 22:31:16,116 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-29 22:31:16,119 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-29 22:31:20,310 INFO (StartupInfoLogger.java:59)- Started Application in 5.223 seconds (JVM running for 6.442)
+2018-08-29 22:32:27,871 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from dept where id= ? 
+2018-08-29 22:32:28,045 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-08-29 22:32:28,066 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-08-29 22:35:25,391 INFO (StartupInfoLogger.java:50)- Starting Application on WIN-FD7OVULN6R0 with PID 6572 (D:\spring-boot\target\classes started by Administrator in D:\spring-boot)
+2018-08-29 22:35:25,394 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-29 22:35:25,397 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
