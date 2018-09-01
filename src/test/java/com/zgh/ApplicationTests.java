@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import com.zgh.springboot.entity.User;
+import redis.clients.jedis.JedisCluster;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -24,6 +25,14 @@ public class ApplicationTests {
 
     @Autowired
     DataSource dataSource;
+
+    @Autowired
+    JedisCluster jedisCluster;
+
+    @Test
+    public void testJedis(){
+        System.out.println(jedisCluster.get("keys"));
+    }
 
     @Test
     public void dataTest() throws SQLException {
