@@ -3,6 +3,7 @@ package com.zgh.springboot.common;
 
 
 import com.github.pagehelper.Page;
+import com.zgh.springboot.enums.IEnums;
 import lombok.*;
 
 import java.io.Serializable;
@@ -11,8 +12,6 @@ import java.util.Map;
 import java.util.Objects;
 
 @Data
-@Getter
-@Setter
 @ToString(callSuper = true)
 @EqualsAndHashCode
 public class RestResult<T> implements Serializable {
@@ -42,7 +41,7 @@ public class RestResult<T> implements Serializable {
      * @return
      */
     public static <T> RestResult<T> Fail(String msg) {
-        return RestResult.Fail("000", msg);
+        return RestResult.Fail(IEnums.STATUS_500.getDesc(), msg);
     }
 
     public static <T> RestResult<T> Fail(String code, String msg) {
@@ -69,7 +68,7 @@ public class RestResult<T> implements Serializable {
     public static <T> RestResult<T> Success(String message, Object data) {
         RestResult<T> tResultOK = new RestResult<>();
         tResultOK.setSuccess(true);
-        tResultOK.setCode("200");
+        tResultOK.setCode(IEnums.STATUS_500.getDesc());
         tResultOK.setMessage(message);
         if (Objects.nonNull(data))
             tResultOK.setData(data);
@@ -78,7 +77,7 @@ public class RestResult<T> implements Serializable {
     }
 
     public static <T> RestResult<T> Success(Object data) {
-        return RestResult.Success("200", data);
+        return RestResult.Success(IEnums.STATUS_200.getDesc(), data);
     }
 
     public static <T> RestResult<T> Success(String message) {
