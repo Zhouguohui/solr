@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-//@ConfigurationProperties(prefix = "spring.redis")
+@ConfigurationProperties(prefix = "spring.redis.cluster")
 public class RedisProperties {
 
-    @Value("${spring.redis.cluster.nodes}")
-    private String clusterNodes;
+    //@Value("${spring.redis.cluster.nodes}")
+    private String nodes;
 
 }

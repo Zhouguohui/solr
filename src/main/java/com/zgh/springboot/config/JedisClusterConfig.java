@@ -18,7 +18,7 @@ public class JedisClusterConfig {
 
     @Bean
     public JedisCluster getJedisCluster(){
-        String[] nodesIpPort = redisProperties.getClusterNodes().split(",");
+        String[] nodesIpPort = redisProperties.getNodes().split(",");
         Set<HostAndPort> nodes = new HashSet<>();
         for(String ipPort : nodesIpPort){
             String[] ipPortPair = ipPort.split(":");

@@ -34,6 +34,12 @@ public class UserContorller {
     @Autowired
     JedisCluster jedisCluster;
 
+
+    @RequestMapping("/getSelectUser")
+    public RestResult getSelectUser(Users users,Integer pageSize,Integer pageNum){
+      return RestResult.build(usersService.getSelectUser(users,pageSize,pageNum));
+    }
+
     @RequestMapping("/getUsers/{id}")
     public RestResult getUsers(@PathVariable("id") Integer id) {
 

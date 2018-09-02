@@ -3,6 +3,8 @@ package com.zgh.springboot.dao;
 import com.zgh.springboot.entity.Users;
 import org.apache.ibatis.annotations.*;
 
+import java.util.List;
+
 @Mapper
 public interface UsersDao {
 
@@ -13,6 +15,8 @@ public interface UsersDao {
     public int insertUsers(Users users);
 
     public int updateUsersById(Users users);
+
+    public List<Users> getSelectUser(Users users);
 
 
 }
