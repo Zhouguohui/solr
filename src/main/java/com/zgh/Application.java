@@ -25,6 +25,11 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
+
+    /**
+     * 为了解决 j'son'x'm'l解析josn为object报错
+     * @return
+     */
     @Bean
     public ObjectMapper objectMapper() {
         return new ObjectMapper().disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
