@@ -2,10 +2,13 @@ package com.zgh.springboot.controller;
 
 
 import com.alibaba.fastjson.JSON;
+import com.zgh.springboot.common.RedisStartId;
 import com.zgh.springboot.common.RestResult;
 import com.zgh.springboot.entity.Users;
+import com.zgh.springboot.enums.StartKeyEnums;
 import com.zgh.springboot.service.DeptService;
 import com.zgh.springboot.service.UsersService;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +23,14 @@ import redis.clients.jedis.JedisCluster;
 
 @Controller
 @ResponseBody
+@Slf4j
 @RequestMapping("/users")
 public class UserContorller {
 
    private static final Logger logger =LoggerFactory.getLogger(UserContorller.class);
+
+    @Autowired
+    RedisStartId redisStartId;
 
     @Autowired
     UsersService usersService;
@@ -43,6 +50,8 @@ public class UserContorller {
     @RequestMapping("/getUsers/{id}")
     public RestResult getUsers(@PathVariable("id") Integer id) {
 
+        String str = redisStartId.getMachineGroup(StartKeyEnums.AA);
+        log.info(str);
        /* Users u = null;
         if(jedisCluster.exists(String.valueOf(id))){
             u = JSON.parseObject(jedisCluster.get(String.valueOf(id)),Users.class);
